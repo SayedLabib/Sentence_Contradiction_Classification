@@ -4,6 +4,8 @@
 
 This project aims to classify pairs of sentences into one of three categories: Contradiction, Entailment, or Neutral based on their semantic meaning. The classification is achieved using various machine learning and deep learning models, including traditional algorithms, neural networks, and transformer-based architectures like BERT and XLM-R.
 
+
+
 📂 Dataset
 
 The dataset consists of two files:
@@ -29,6 +31,7 @@ test.csv: Unlabeled dataset for predictions.
 
 
 🔍 Project Workflow
+
 
 📊 1. Exploratory Data Analysis (EDA)
 
