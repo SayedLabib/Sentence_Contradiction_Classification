@@ -26,6 +26,8 @@ label: Relationship between the sentences:
 
 test.csv: Unlabeled dataset for predictions.
 
+
+
 🔍 Project Workflow
 
 📊 1. Exploratory Data Analysis (EDA)
@@ -35,6 +37,8 @@ Visualized class distribution (Contradiction, Entailment, Neutral).
 Analyzed sentence structures (length, word distribution, common words).
 
 Checked for missing values and outliers.
+
+
 
 🛠️ 2. Text Preprocessing
 
@@ -46,6 +50,8 @@ Lemmatization/Stemming for text normalization.
 
 Feature extraction using TF-IDF, Word2Vec, or Transformer embeddings (BERT, XLM-R).
 
+
+
 🤖 3. Model Training
 
 Baseline Models: Logistic Regression, Decision Tree, Random Forest, XGBoost.
@@ -56,6 +62,8 @@ Sequence Models: LSTM/GRU for sequential learning.
 
 Transformer-Based Models: Fine-tuning BERT and XLM-R for better contextual understanding.
 
+
+
 📈 4. Model Evaluation
 
 Metrics used: Accuracy, Precision, Recall, F1-score.
@@ -63,6 +71,8 @@ Metrics used: Accuracy, Precision, Recall, F1-score.
 Confusion Matrix to analyze misclassifications.
 
 AUC-ROC curve to evaluate classification performance.
+
+
 
 📊 Model Performance:
 
@@ -94,6 +104,8 @@ Accuracy: 63%
 
 Macro F1-score: 0.63
 
+
+
 🔧 5. Hyperparameter Tuning
 
 Experimented with optimizers (Adam, SGD) and activation functions.
@@ -102,6 +114,8 @@ Adjusted learning rate, batch size, and epochs.
 
 Used Grid Search and Random Search for optimization.
 
+
+
 🏆 Final Performance Evaluation
 
 Best-performing model: XLM-R (63% accuracy, best macro F1-score)
@@ -109,6 +123,8 @@ Best-performing model: XLM-R (63% accuracy, best macro F1-score)
 Classification metrics: Accuracy, Precision, Recall, F1-score, and AUC-ROC.
 
 Confusion Matrix visualization.
+
+
 
 📜 Expected Deliverables
 
@@ -124,6 +140,8 @@ Hyperparameter tuning (if applicable)
 
 Performance Report detailing classification results.
 
+
+
 🛠️ Installation & Setup
 
 Prerequisites
@@ -134,9 +152,13 @@ pip install numpy pandas scikit-learn tensorflow transformers matplotlib seaborn
 
 ▶️ Running the Notebook
 
+
+
 Execute the Jupyter Notebook to train and evaluate the model:
 
 jupyter notebook sentence-contradiction-classification.ipynb
+
+
 
 📂 Repository Structure
 
@@ -147,6 +169,8 @@ jupyter notebook sentence-contradiction-classification.ipynb
 │   │-- sentence-contradiction-classification.ipynb
 │-- README.md
 
+
+
 🚀 Future Work
 
 Experimenting with larger transformer models like RoBERTa, DeBERTa.
@@ -155,12 +179,4 @@ Investigating zero-shot and few-shot learning approaches.
 
 Enhancing dataset augmentation techniques.
 
-📜 License
 
-This project is open-source and available under the MIT License.
-
-Enhancing dataset augmentation techniques.
-
-📜 License
-
-This project is open-source and available under the MIT License.
