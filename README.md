@@ -45,13 +45,13 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ## 🛠️ **2. Text Preprocessing** <br>
 
-###Tokenization (splitting sentences into words).
+### Tokenization (splitting sentences into words).
 
-###Lowercasing and removal of stopwords, special characters, and punctuation.
+### Lowercasing and removal of stopwords, special characters, and punctuation.
 
-###Lemmatization/Stemming for text normalization.
+### Lemmatization/Stemming for text normalization.
 
-###Feature extraction using TF-IDF, Word2Vec, or Transformer embeddings (BERT, XLM-R). <br>
+### Feature extraction using TF-IDF, Word2Vec, or Transformer embeddings (BERT, XLM-R). <br>
 
 
 
