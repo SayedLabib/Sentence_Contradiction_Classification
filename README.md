@@ -28,7 +28,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 #### test.csv: Unlabeled dataset for predictions. <br>
 
-
+<br>
 
 # 🔍 **Project Workflow** <br>
 
@@ -41,7 +41,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Checked for missing values and outliers. <br>
 
-
+<br>
 
 ## 🛠️ **2. Text Preprocessing** <br>
 
@@ -53,7 +53,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Feature extraction using TF-IDF, Word2Vec, or Transformer embeddings (BERT, XLM-R). <br>
 
-
+<br>
 
 ## 🤖 **3. Model Training** <br>
 
@@ -65,7 +65,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Transformer-Based Models: Fine-tuning BERT and XLM-R for better contextual understanding. <br>
 
-
+<br>
 
 ## 📈 4. **Model Evaluation** <br>
 
@@ -75,7 +75,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### AUC-ROC curve to evaluate classification performance. <br>
 
-
+<br>
 
 ## 📊 **Model Performance:** <br>
 
@@ -107,7 +107,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Macro F1-score: 0.63 <br>
 
-
+<br>
 
 ## 🔧 **5. Hyperparameter Tuning** <br>
 
@@ -117,7 +117,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Used Grid Search and Random Search for optimization. <br>
 
-
+<br>
 
 ## 🏆 **Final Performance Evaluation** <br>
 
@@ -127,7 +127,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Confusion Matrix visualization. <br>
 
-
+<br>
 
 ## 📜 **Expected Deliverables** <br>
 
@@ -143,7 +143,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Performance Report detailing classification results. <br>
 
-
+<br>
 
 ## 🛠️ **Installation & Setup** <br>
 
@@ -155,21 +155,21 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ## ▶️ **Running the Notebook** <br>
 
-
+<br>
 
 ## **Execute the Jupyter Notebook to train and evaluate the model:** <br>
 
 ### jupyter notebook sentence-contradiction-classification.ipynb <br>
 
-
+<br>
 
 ## 📂 **Repository Structure** <br>
 
 │-- dataset/
-│   │-- train.csv
-│   │-- test.csv
+│   ├── train.csv
+│   └── test.csv
 │-- notebooks/
-│   │-- sentence-contradiction-classification.ipynb
+│   └── sentence-contradiction-classification.ipynb
 │-- README.md
 
 <br>
