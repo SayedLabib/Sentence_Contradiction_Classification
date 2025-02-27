@@ -26,7 +26,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 #### 2: Entailment (One sentence logically follows from the other)
 
-#### test.csv: Unlabeled dataset for predictions.
+#### test.csv: Unlabeled dataset for predictions. <br>
 
 
 
@@ -39,7 +39,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Analyzed sentence structures (length, word distribution, common words).
 
-### Checked for missing values and outliers.
+### Checked for missing values and outliers. <br>
 
 
 
@@ -51,7 +51,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ###Lemmatization/Stemming for text normalization.
 
-###Feature extraction using TF-IDF, Word2Vec, or Transformer embeddings (BERT, XLM-R).
+###Feature extraction using TF-IDF, Word2Vec, or Transformer embeddings (BERT, XLM-R). <br>
 
 
 
@@ -63,7 +63,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Sequence Models: LSTM/GRU for sequential learning.
 
-### Transformer-Based Models: Fine-tuning BERT and XLM-R for better contextual understanding.
+### Transformer-Based Models: Fine-tuning BERT and XLM-R for better contextual understanding. <br>
 
 
 
@@ -73,7 +73,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Confusion Matrix to analyze misclassifications.
 
-### AUC-ROC curve to evaluate classification performance.
+### AUC-ROC curve to evaluate classification performance. <br>
 
 
 
@@ -105,7 +105,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Accuracy: 63%
 
-### Macro F1-score: 0.63
+### Macro F1-score: 0.63 <br>
 
 
 
@@ -115,7 +115,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Adjusted learning rate, batch size, and epochs.
 
-### Used Grid Search and Random Search for optimization.
+### Used Grid Search and Random Search for optimization. <br>
 
 
 
@@ -125,7 +125,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Classification metrics: Accuracy, Precision, Recall, F1-score, and AUC-ROC.
 
-### Confusion Matrix visualization.
+### Confusion Matrix visualization. <br>
 
 
 
@@ -141,7 +141,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### Hyperparameter tuning (if applicable)
 
-### Performance Report detailing classification results.
+### Performance Report detailing classification results. <br>
 
 
 
@@ -153,13 +153,13 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### pip install numpy pandas scikit-learn tensorflow transformers matplotlib seaborn
 
-## ▶️ **Running the Notebook**
+## ▶️ **Running the Notebook** <br>
 
 
 
 ## **Execute the Jupyter Notebook to train and evaluate the model:** <br>
 
-### jupyter notebook sentence-contradiction-classification.ipynb
+### jupyter notebook sentence-contradiction-classification.ipynb <br>
 
 
 
@@ -172,7 +172,7 @@ This project aims to classify pairs of sentences into one of three categories: C
 │   │-- sentence-contradiction-classification.ipynb
 │-- README.md
 
-
+<br>
 
 ## 🚀 **Future Work** <br>
 
