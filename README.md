@@ -1,32 +1,32 @@
-🚀 Sentence Contradiction Classification
+# 🚀 **Sentence Contradiction Classification**
+## 🎯 **Goal** <br>
 
-🎯 Goal
 
 This project aims to classify pairs of sentences into one of three categories: Contradiction, Entailment, or Neutral based on their semantic meaning. The classification is achieved using various machine learning and deep learning models, including traditional algorithms, neural networks, and transformer-based architectures like BERT and XLM-R.
 
 
 
-📂 Dataset
+## 📂 **Dataset**  <br>
 
-The dataset consists of two files:
+### The dataset consists of two files:
 
-train.csv: Labeled dataset containing sentence pairs and their relationships.
+### train.csv: Labeled dataset containing sentence pairs and their relationships.
 
-id: Unique identifier for each sentence pair.
+### id: Unique identifier for each sentence pair.
 
-sentence1: The first sentence (Premise).
+### sentence1: The first sentence (Premise).
 
-sentence2: The second sentence (Hypothesis).
+### sentence2: The second sentence (Hypothesis).
 
-label: Relationship between the sentences:
+### label: Relationship between the sentences:
 
-0: Contradiction (Sentences have opposite meanings)
+### 0: Contradiction (Sentences have opposite meanings)
 
-1: Neutral (Sentences are related but do not imply each other)
+### 1: Neutral (Sentences are related but do not imply each other)
 
-2: Entailment (One sentence logically follows from the other)
+### 2: Entailment (One sentence logically follows from the other)
 
-test.csv: Unlabeled dataset for predictions.
+### test.csv: Unlabeled dataset for predictions.
 
 
 
