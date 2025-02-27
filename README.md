@@ -10,160 +10,160 @@ This project aims to classify pairs of sentences into one of three categories: C
 
 ### The dataset consists of two files:
 
-### train.csv: Labeled dataset containing sentence pairs and their relationships.
+#### train.csv: Labeled dataset containing sentence pairs and their relationships.
 
-### id: Unique identifier for each sentence pair.
+#### id: Unique identifier for each sentence pair.
 
-### sentence1: The first sentence (Premise).
+#### sentence1: The first sentence (Premise).
 
-### sentence2: The second sentence (Hypothesis).
+#### sentence2: The second sentence (Hypothesis).
 
-### label: Relationship between the sentences:
+#### label: Relationship between the sentences:
 
-### 0: Contradiction (Sentences have opposite meanings)
+#### 0: Contradiction (Sentences have opposite meanings)
 
-### 1: Neutral (Sentences are related but do not imply each other)
+#### 1: Neutral (Sentences are related but do not imply each other)
 
-### 2: Entailment (One sentence logically follows from the other)
+#### 2: Entailment (One sentence logically follows from the other)
 
-### test.csv: Unlabeled dataset for predictions.
+#### test.csv: Unlabeled dataset for predictions.
 
 
 
-🔍 Project Workflow
+# 🔍 **Project Workflow** <br>
 
 
-📊 1. Exploratory Data Analysis (EDA)
+## 📊 **1. Exploratory Data Analysis (EDA)**
 
-Visualized class distribution (Contradiction, Entailment, Neutral).
+### Visualized class distribution (Contradiction, Entailment, Neutral).
 
-Analyzed sentence structures (length, word distribution, common words).
+### Analyzed sentence structures (length, word distribution, common words).
 
-Checked for missing values and outliers.
+### Checked for missing values and outliers.
 
 
 
-🛠️ 2. Text Preprocessing
+## 🛠️ **2. Text Preprocessing** <br>
 
-Tokenization (splitting sentences into words).
+###Tokenization (splitting sentences into words).
 
-Lowercasing and removal of stopwords, special characters, and punctuation.
+###Lowercasing and removal of stopwords, special characters, and punctuation.
 
-Lemmatization/Stemming for text normalization.
+###Lemmatization/Stemming for text normalization.
 
-Feature extraction using TF-IDF, Word2Vec, or Transformer embeddings (BERT, XLM-R).
+###Feature extraction using TF-IDF, Word2Vec, or Transformer embeddings (BERT, XLM-R).
 
 
 
-🤖 3. Model Training
+## 🤖 **3. Model Training** <br>
 
-Baseline Models: Logistic Regression, Decision Tree, Random Forest, XGBoost.
+### Baseline Models: Logistic Regression, Decision Tree, Random Forest, XGBoost.
 
-Neural Networks: Custom Artificial Neural Network (ANN).
+### Neural Networks: Custom Artificial Neural Network (ANN).
 
-Sequence Models: LSTM/GRU for sequential learning.
+### Sequence Models: LSTM/GRU for sequential learning.
 
-Transformer-Based Models: Fine-tuning BERT and XLM-R for better contextual understanding.
+### Transformer-Based Models: Fine-tuning BERT and XLM-R for better contextual understanding.
 
 
 
-📈 4. Model Evaluation
+## 📈 4. **Model Evaluation** <br>
 
-Metrics used: Accuracy, Precision, Recall, F1-score.
+### Metrics used: Accuracy, Precision, Recall, F1-score.
 
-Confusion Matrix to analyze misclassifications.
+### Confusion Matrix to analyze misclassifications.
 
-AUC-ROC curve to evaluate classification performance.
+### AUC-ROC curve to evaluate classification performance.
 
 
 
-📊 Model Performance:
+## 📊 **Model Performance:** <br>
 
-Baseline Models:
+### Baseline Models:
 
-Random Forest: 43.89% accuracy
+### Random Forest: 43.89% accuracy
 
-Logistic Regression: 43.64% accuracy
+### Logistic Regression: 43.64% accuracy
 
-ANN: 43.23% accuracy
+### ANN: 43.23% accuracy
 
-XGBoost: 42.90% accuracy
+### XGBoost: 42.90% accuracy
 
-Decision Tree: 41.00% accuracy
+### Decision Tree: 41.00% accuracy
 
-LSTM: 33.00% accuracy
+## LSTM: 33.00% accuracy
 
-Transformer Models:
+### Transformer Models:
 
-BERT Performance:
+### BERT Performance:
 
-Accuracy: 61%
+### Accuracy: 61%
 
-Macro F1-score: 0.61
+### Macro F1-score: 0.61
 
-XLM-R Performance:
+### XLM-R Performance:
 
-Accuracy: 63%
+### Accuracy: 63%
 
-Macro F1-score: 0.63
+### Macro F1-score: 0.63
 
 
 
-🔧 5. Hyperparameter Tuning
+## 🔧 **5. Hyperparameter Tuning** <br>
 
-Experimented with optimizers (Adam, SGD) and activation functions.
+### Experimented with optimizers (Adam, SGD) and activation functions.
 
-Adjusted learning rate, batch size, and epochs.
+### Adjusted learning rate, batch size, and epochs.
 
-Used Grid Search and Random Search for optimization.
+### Used Grid Search and Random Search for optimization.
 
 
 
-🏆 Final Performance Evaluation
+## 🏆 **Final Performance Evaluation** <br>
 
-Best-performing model: XLM-R (63% accuracy, best macro F1-score)
+### Best-performing model: XLM-R (63% accuracy, best macro F1-score)
 
-Classification metrics: Accuracy, Precision, Recall, F1-score, and AUC-ROC.
+### Classification metrics: Accuracy, Precision, Recall, F1-score, and AUC-ROC.
 
-Confusion Matrix visualization.
+### Confusion Matrix visualization.
 
 
 
-📜 Expected Deliverables
+## 📜 **Expected Deliverables** <br>
 
-Jupyter Notebook (.ipynb) with:
+### Jupyter Notebook (.ipynb) with:
 
-EDA (visualizations included)
+### EDA (visualizations included)
 
-Text preprocessing pipeline
+### Text preprocessing pipeline
 
-Model training and evaluation
+### Model training and evaluation
 
-Hyperparameter tuning (if applicable)
+### Hyperparameter tuning (if applicable)
 
-Performance Report detailing classification results.
+### Performance Report detailing classification results.
 
 
 
-🛠️ Installation & Setup
+## 🛠️ **Installation & Setup** <br>
 
-Prerequisites
+### Prerequisites
 
-Ensure you have Python and necessary libraries installed:
+### Ensure you have Python and necessary libraries installed:
 
-pip install numpy pandas scikit-learn tensorflow transformers matplotlib seaborn
+### pip install numpy pandas scikit-learn tensorflow transformers matplotlib seaborn
 
-▶️ Running the Notebook
+## ▶️ **Running the Notebook**
 
 
 
-Execute the Jupyter Notebook to train and evaluate the model:
+## **Execute the Jupyter Notebook to train and evaluate the model:** <br>
 
-jupyter notebook sentence-contradiction-classification.ipynb
+### jupyter notebook sentence-contradiction-classification.ipynb
 
 
 
-📂 Repository Structure
+## 📂 **Repository Structure** <br>
 
 │-- dataset/
 │   │-- train.csv
@@ -174,12 +174,12 @@ jupyter notebook sentence-contradiction-classification.ipynb
 
 
 
-🚀 Future Work
+## 🚀 **Future Work** <br>
 
-Experimenting with larger transformer models like RoBERTa, DeBERTa.
+### Experimenting with larger transformer models like RoBERTa, DeBERTa.
 
-Investigating zero-shot and few-shot learning approaches.
+### Investigating zero-shot and few-shot learning approaches.
 
-Enhancing dataset augmentation techniques.
+### Enhancing dataset augmentation techniques.
 
 
